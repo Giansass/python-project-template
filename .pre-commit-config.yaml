@@ -15,6 +15,7 @@ repos:
     -   id: trailing-whitespace
     -   id: check-docstring-first
     -   id: debug-statements
+    -   id: no-commit-to-branch
 
 -   repo: https://github.com/psf/black
     rev: 23.12.1
