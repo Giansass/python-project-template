@@ -95,11 +95,12 @@ This section lists the programming languages used in the project:
 
 Per poter utilizzare il template compiere i seguenti step:
 
-1. Use this template to create a new repository directly in GitHub
+1. Use this template to create a new repository directly in GitHub.
+2. 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+To use this templete assure you have Python installed.
 * npm
   ```sh
   npm install npm@latest -g
@@ -218,7 +219,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/Giansass/python-project-template.svg?style=for-the-badge
 [issues-url]: https://github.com/Giansass/python-project-template/issues
 [license-shield]: https://img.shields.io/github/license/Giansass/python-project-template.svg?style=for-the-badge
-[license-url]: https://github.com/Giansass/python-project-template/LICENSE.txt
+[license-url]: https://github.com/Giansass/python-project-template/blob/develop/README.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andreagiansanti/
 [product-screenshot]: images/screenshot.png
