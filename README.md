@@ -205,8 +205,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/Giansass/python-project-template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Giansass/python-project-template.svg?style=for-the-badge
 [issues-url]: https://github.com/Giansass/python-project-template/issues
-[license-shield]: https://img.shields.io/github/license/Giansass/python-project-template.svg?style=for-the-badge
-[license-url]: https://github.com/Giansass/python-project-template/blob/develop/README.md
+[license-shield]: https://img.shields.io/badge/license-MIT-blue
+[license-url]: https://github.com/Giansass/python-project-template/blob/develop/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andreagiansanti/
 [product-screenshot]: images/screenshot.png
