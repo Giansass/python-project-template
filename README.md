@@ -80,9 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here a description of the project
-
-Use the `BLANK_README.md` to get started.
+This project aims to define a template to use to develop a Python project. The template prepares the basic Python environment necessary to proceed with development and makes use of the main libraries useful for writing correct Python code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,8 +95,9 @@ See here for other badges: https://github.com/digitalinnovationone/dio-lab-open-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Per poter utilizzare il template compiere i seguenti step:
+
+1. Use this template to create a new repository directly in GitHub
 
 ### Prerequisites
 
