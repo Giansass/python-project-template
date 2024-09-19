@@ -90,7 +90,7 @@ Use the `BLANK_README.md` to get started.
 
 This section lists the programming languages used in the project:
 
-* [![Python][Python.com]][Next-url]
+[![Python][Python.com]][Next-url]
 
 See here for other badges: https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md
 
