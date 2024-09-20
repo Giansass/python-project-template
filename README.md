@@ -45,7 +45,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Programming language used</a></li>
       </ul>
     </li>
     <li>
@@ -55,7 +55,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -73,69 +72,60 @@ This project aims to define a template to use to develop a Python project. The t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Programming language used
+### Programming language used
 
 This section lists the programming languages used in the project:
 
 [![Python][Python.com]][Python-url]
 
-<!-- GETTING STARTED -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Getting Started
 
-Per poter utilizzare il template compiere i seguenti step:
+### Prerequisites
+
+To use this templete assure:
+
+1. Python is installed. [Here](https://realpython.com/installing-python/) a user friendly guide to install python on Windows, MacOS and Linux.
+2. Poetry is installed. [Here](https://python-poetry.org/docs/#installing-with-the-official-installer) the offical guide to install Poetry.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Installation
+
+In order to properly install the template take the following steps:
 
 1. Use this template to [create a new repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub.
    ![]()<img src="data/images/how_to_create_repo_from_template.png"  width="500">
 
 2. Clone the created repo on your local system 
    ```sh
-   git clone https://github.com/<user_name>/<repo_name>
+   git clone https://github.com/<user_name>/<repo_name>.git
    ```
 
-
-### Prerequisites
-
-To use this templete assure you have Python installed. [Here](https://realpython.com/installing-python/) a user friendly guide to install python on Windows, MacOS and Linux 
-
-### Installation
-
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
-
-1. Clone the repo
+3. Create a poetry virtualenv
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   poetry env use python3
    ```
-
+4. Create the poetry.lock file form the pyproject.toml
+   ```sh
+   poetry lock
+   ```
+5. Install all the packages in the poetry.lock file
+   ```sh
+   poetry install
+   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
 - [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Giansass/python-project-template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -157,29 +147,17 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
+Distributed under the MIT License. See [LICENSE](https://github.com/Giansass/python-project-template/blob/develop/LICENSE) for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 Your Name - Andrea Giansanti - andreagiansanti90@gmail.com
-
 Project Link: [https://github.com/Giansass/python-project-template](https://github.com/Giansass/python-project-template)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
@@ -207,7 +185,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/Giansass/python-project-template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Giansass/python-project-template.svg?style=for-the-badge
 [issues-url]: https://github.com/Giansass/python-project-template/issues
-[license-shield]: https://img.shields.io/badge/license-MIT-blue
+[license-shield]: https://img.shields.io/github/license/Giansass/python-project-template.svg?style=for-the-badge
 [license-url]: https://github.com/Giansass/python-project-template/blob/develop/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/andreagiansanti/
