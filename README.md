@@ -85,7 +85,8 @@ This section lists the programming languages used in the project:
 Per poter utilizzare il template compiere i seguenti step:
 
 1. Use this template to create a new repository directly in GitHub.
-2. 
+![alt text](data/images/how_to_create_repo_from_template.png "Title")
+3. 
 
 ### Prerequisites
 
