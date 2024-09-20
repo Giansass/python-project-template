@@ -1,3 +1,4 @@
+# A Python project template
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 <!--
@@ -59,7 +60,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -96,7 +96,9 @@ To use this templete assure:
 In order to properly install the template take the following steps:
 
 1. Use this template to [create a new repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub.
-   ![]()<img src="data/images/how_to_create_repo_from_template.png"  width="500">
+   
+   ![]()<img src="data/images/how_to_create_repo_from_template.png" alt="Create repository from a template" width="500">
+
 
 2. Clone the created repository on your local system 
    ```sh
@@ -107,7 +109,7 @@ In order to properly install the template take the following steps:
    ```sh
    poetry env use python3
    ```
-4. Create the poetry.lock form the pyproject.toml
+4. Create the poetry.lock form the pyproject.toml (I decided to not committing the poetry.lock since the project doesn't not need to bee perfectly reproducible in other environments, here the [official documentation](https://python-poetry.org/docs/basic-usage/#committing-your-poetrylock-file-to-version-control))
    ```sh
    poetry lock
    ```
@@ -139,7 +141,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Top contributors:
+### Top contributors
 
 <a href="https://github.com/Giansass/python-project-template/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Giansass/python-project-template" alt="contrib.rocks image" />
@@ -154,26 +156,9 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Giansass/pyt
 
 ## Contact
 
-Your Name - Andrea Giansanti - andreagiansanti90@gmail.com
+Your Name - Andrea Giansanti - <a href="mailto:andreagiansanti90@gmail.com">andreagiansanti90@gmail.com</a>
 Project Link: [https://github.com/Giansass/python-project-template](https://github.com/Giansass/python-project-template)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
