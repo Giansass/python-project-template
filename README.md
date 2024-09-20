@@ -84,17 +84,18 @@ This section lists the programming languages used in the project:
 
 Per poter utilizzare il template compiere i seguenti step:
 
-1. Use this template to create a new repository directly in GitHub.
-![alt text](data/images/how_to_create_repo_from_template.png "Title")
-3. 
+1. Use this template to [create a new repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub.
+   ![]()<img src="data/images/how_to_create_repo_from_template.png"  width="500">
+
+2. Clone the created repo on your local system 
+   ```sh
+   git clone https://github.com/<user_name>/<repo_name>
+   ```
+
 
 ### Prerequisites
 
-To use this templete assure you have Python installed.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To use this templete assure you have Python installed. [Here](https://realpython.com/installing-python/) a user friendly guide to install python on Windows, MacOS and Linux 
 
 ### Installation
 
