@@ -86,7 +86,7 @@ This section lists the programming languages used in the project:
 
 To use this templete assure:
 
-1. Python is installed. [Here](https://realpython.com/installing-python/) a user friendly guide to install python on Windows, MacOS and Linux.
+1. Python is installed. [Here](https://realpython.com/installing-python/) a user friendly guide to install python on Windows, macOS and Linux.
 2. Poetry is installed. [Here](https://python-poetry.org/docs/#installing-with-the-official-installer) the offical guide to install Poetry.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,7 +98,7 @@ In order to properly install the template take the following steps:
 1. Use this template to [create a new repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub.
    ![]()<img src="data/images/how_to_create_repo_from_template.png"  width="500">
 
-2. Clone the created repo on your local system 
+2. Clone the created repository on your local system 
    ```sh
    git clone https://github.com/<user_name>/<repo_name>.git
    ```
@@ -107,11 +107,11 @@ In order to properly install the template take the following steps:
    ```sh
    poetry env use python3
    ```
-4. Create the poetry.lock file form the pyproject.toml
+4. Create the poetry.lock form the pyproject.toml
    ```sh
    poetry lock
    ```
-5. Install all the packages in the poetry.lock file
+5. Install all the packages in the poetry.lock
    ```sh
    poetry install
    ```
@@ -119,7 +119,7 @@ In order to properly install the template take the following steps:
 
 ## Roadmap
 
-- [x] Add Changelog
+- [x] README updated
 - [ ] 
 
 See the [open issues](https://github.com/Giansass/python-project-template/issues) for a full list of proposed features (and known issues).
