@@ -14,7 +14,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Balck][black-shield]][black-url]
-[![Poetry][poetry-shield]][poetry-url]
 [![Precommit][pre-commit-shield]][pre-commit-url]
 
 
@@ -98,7 +97,7 @@ To use this templete assure:
 In order to properly install the template take the following steps:
 
 1. Use this template to [create a new repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub.
-2. Clone the created repository on your local system 
+2. Clone the created repository on your local system
    ```sh
    git clone https://github.com/<user_name>/<repo_name>.git
    ```
@@ -120,7 +119,7 @@ In order to properly install the template take the following steps:
 ## Roadmap
 
 - [x] README updated
-- [ ] 
+- [ ]
 
 See the [open issues](https://github.com/Giansass/python-project-template/issues) for a full list of proposed features (and known issues).
 
