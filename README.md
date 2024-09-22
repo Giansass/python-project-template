@@ -98,10 +98,6 @@ To use this templete assure:
 In order to properly install the template take the following steps:
 
 1. Use this template to [create a new repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub.
-
-   ![]()<img src="data/images/how_to_create_repo_from_template.png" alt="Create repository from a template" width="500">
-
-
 2. Clone the created repository on your local system 
    ```sh
    git clone https://github.com/<user_name>/<repo_name>.git
