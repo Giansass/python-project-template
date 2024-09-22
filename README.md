@@ -158,8 +158,9 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Giansass/pyt
 
 ## Contact
 
-Your Name - Andrea Giansanti - <a href="mailto:andreagiansanti90@gmail.com">andreagiansanti90@gmail.com</a>
-Project Link: [https://github.com/Giansass/python-project-template](https://github.com/Giansass/python-project-template)
+Andrea Giansanti
+* Email: <a href="mailto:andreagiansanti90@gmail.com">andreagiansanti90@gmail.com</a>
+* Linkedin: <a href="https://www.linkedin.com/in/andreagiansanti/">https://www.linkedin.com/in/andreagiansanti/</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -174,8 +175,6 @@ Project Link: [https://github.com/Giansass/python-project-template](https://gith
 [issues-url]: https://github.com/Giansass/python-project-template/issues
 [license-shield]: https://img.shields.io/github/license/Giansass/python-project-template.svg?style=for-the-badge
 [license-url]: https://github.com/Giansass/python-project-template/blob/develop/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/andreagiansanti/
 [product-screenshot]: images/screenshot.png
 [Python.com]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
