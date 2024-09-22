@@ -171,7 +171,6 @@ Andrea Giansanti
 [issues-url]: https://github.com/Giansass/python-project-template/issues
 [license-shield]: https://img.shields.io/github/license/Giansass/python-project-template.svg?style=for-the-badge
 [license-url]: https://github.com/Giansass/python-project-template/blob/develop/LICENSE
-[product-screenshot]: images/screenshot.png
 [Python.com]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [poetry-shield]: https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json
