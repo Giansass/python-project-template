@@ -13,7 +13,9 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Balck][black-shield]][black-url]
+[![Poetry][poetry-shield]][poetry-url]
+[![Precommit][pre-commit-shield]][pre-commit-url]
 
 
 
@@ -177,3 +179,9 @@ Project Link: [https://github.com/Giansass/python-project-template](https://gith
 [product-screenshot]: images/screenshot.png
 [Python.com]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
+[poetry-shield]: https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json
+[poetry-url]: https://python-poetry.org/
+[pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=for-the-badge
+[pre-commit-url]: https://pre-commit.com/
+[black-shield]: https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge
+[black-url]:https://github.com/psf/black
