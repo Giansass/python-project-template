@@ -1,5 +1,8 @@
-import pytest
+"""
+Here a conftest template
+"""
 
+import pytest
 
 @pytest.fixture
 def my_fixture():
