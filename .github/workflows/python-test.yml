@@ -24,11 +24,18 @@ jobs:
         
     - name: Install dependecies
       run: |
+        echo ">>> Check Python version"
         python3 -c "import sys; print(f'Python version: {sys.version}')"
+        echo ">>> Download and install Poetry"
         curl -sSL https://install.python-poetry.org | python3 -
+        echo ">>> Check Poetry version"
         echo $(poetry --version)
+        echo ">>> Create Poetry virtualenv"
         poetry env use python3
+        echo ">>> Create Poetry lock file from pyproject.toml"
         poetry lock
+        echo ">>> Install required modules"
         poetry install
+        echo ">>> List installed modules"
         poetry show
         
