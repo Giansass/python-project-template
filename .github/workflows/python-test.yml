@@ -24,8 +24,11 @@ jobs:
         
     - name: Install dependecies
       run: |
+        python3 -c "import sys; print(f'Python version: {sys.version}')"
         curl -sSL https://install.python-poetry.org | python3 -
-        poetry --version
-        pwd
-        ls
+        echo $(poetry --version)
+        poetry env use python3
+        poetry lock
+        poetry install
+        poetry show
         
