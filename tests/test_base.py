@@ -4,4 +4,5 @@ def test_sample(my_fixture):
     WHEN the test
     THEN the expected result
     """
+    _ = my_fixture
     assert True
