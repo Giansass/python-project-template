@@ -117,7 +117,7 @@ In order to properly install the template take the following steps:
 
 6. Install all pre-commit hooks
    ```sh
-   pre-commit install
+   pre-commit install --hook-type pre-commit --hook-type pre-push
    ```
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
