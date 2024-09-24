@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-project-template"
+name = "python_project_template"
 version = "0.1.0"
 description = "A template for python projects"
 authors = ["Andrea Giansanti <andreagiansanti90@gmail.com>"]
