@@ -119,13 +119,21 @@ In order to properly install the template take the following steps:
    ```sh
    pre-commit install --hook-type pre-commit --hook-type pre-push
    ```
-   
+
+7. Modify project, copyright, author and release from the docs/conf.py used by Sphinx
+   ```sh
+   project_name=$(git config --local remote.origin.url|sed -n 's#.*/\([^.]*\)\.git#\1#p')
+   sed "s/python_project_template/${project_name}/" docs/conf.py
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
 
 - [x] README updated
-- [ ]
+- [x] Add pytest in pre-push step
+- [x] Add Sphinx initialization
+- []
 
 See the [open issues](https://github.com/Giansass/python-project-template/issues) for a full list of proposed features (and known issues).
 
