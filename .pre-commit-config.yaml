@@ -114,12 +114,19 @@ repos:
 
 -   repo: local
     hooks:
-    - id: pytest
-      name: pytest
-      description: Perform tests with pytest
-      stages: [push]
-      entry: pytest tests
-      language: system
-      types: [python]
-      pass_filenames: false
-      always_run: true
+
+    -   id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [ python ]
+        args: ["--rcfile=.pylintrc"]
+    -   id: pytest
+        name: pytest
+        description: Perform tests with pytest
+        stages: [push]
+        entry: pytest tests
+        language: system
+        types: [python]
+        pass_filenames: false
+        always_run: true
