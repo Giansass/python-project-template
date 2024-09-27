@@ -102,6 +102,7 @@ repos:
     -   id: pycln
         name: pycln
         description: Remove unsed import statements
+        stages: [commit]
         args: [--all]
 
 -   repo: https://github.com/asottile/pyupgrade
@@ -110,6 +111,7 @@ repos:
     -   id: pyupgrade
         name: pyupgrade
         description: Automatically upgrade syntax for newer versions of Python
+        stages: [commit]
         args: [--py310-plus]
 
 -   repo: local
@@ -120,6 +122,7 @@ repos:
         entry: pylint
         language: system
         types: [ python ]
+        stages: [commit]
         args: ["--rcfile=.pylintrc"]
     -   id: pytest
         name: pytest
