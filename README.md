@@ -115,15 +115,20 @@ In order to properly install the template take the following steps:
    poetry install
    ```
 
-6. Install all pre-commit hooks
+6. Activate the created virtualenv
+   ```sh
+   source $(poetry env info --path)/bin/activate
+   ```
+   
+7. Install all pre-commit hooks
    ```sh
    pre-commit install --hook-type pre-commit --hook-type pre-push
    ```
 
-7. Modify project, copyright, author and release from the docs/conf.py used by Sphinx
+8. Modify project, copyright, author and release from the docs/conf.py used by Sphinx
    ```sh
    project_name=$(git config --local remote.origin.url|sed -n 's#.*/\([^.]*\)\.git#\1#p')
-   sed "s/python_project_template/${project_name}/" docs/conf.py
+   sed -i "" "s/python_project_template/${project_name}/" docs/conf.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
