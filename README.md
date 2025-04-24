@@ -101,7 +101,16 @@ In order to properly install the template take the following steps:
    ```sh
    git clone https://github.com/<user_name>/<repo_name>.git
    ```
-
+3. Change info in the project in the pyproject.toml
+   ```sh
+   [tool.poetry]
+   name = "<name_of_the_project>"
+   version = "0.1.0"
+   description = "<project_description>"
+   authors = ["author_name"]
+   license = "<license>"
+   readme = "README.md"
+   ```
 3. Create a poetry virtualenv
    ```sh
    poetry env use python3
